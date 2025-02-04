@@ -4,12 +4,12 @@
 <head>
 	<meta charset="UTF-8" />
 	<title>Inclusive Design Institute</title>
-	
+
 	<link rel="stylesheet" type="text/css" media="all" href="/wp-content/themes/wordpress-fss-theme/infusion/framework/fss/css/fss-reset-global.css" />
 	<link rel="stylesheet" type="text/css" media="all" href="/wp-content/themes/wordpress-fss-theme/infusion/framework/fss/css/fss-base-global.css" />
 	<link rel="stylesheet" type="text/css" media="all" href="/wp-content/themes/wordpress-fss-theme/infusion/framework/fss/css/fss-layout.css" />
 	<link rel="stylesheet" type="text/css" media="all" href="/wp-content/themes/wordpress-fss-theme/infusion/framework/fss/css/fss-text.css" />
-	 	<link rel="stylesheet" type="text/css" href="/wp-content/themes/wordpress-fss-theme/infusion/components/uiOptions/css/FatPanelUIOptions.css" />        
+	 	<link rel="stylesheet" type="text/css" href="/wp-content/themes/wordpress-fss-theme/infusion/components/uiOptions/css/FatPanelUIOptions.css" />
 	<link rel="stylesheet" type="text/css" href="/wp-content/themes/wordpress-fss-theme/infusion/components/uiOptions/css/fss/fss-theme-bw-uio.css" />
 	<link rel="stylesheet" type="text/css" href="/wp-content/themes/wordpress-fss-theme/infusion/components/uiOptions/css/fss/fss-theme-wb-uio.css" />
 	<link rel="stylesheet" type="text/css" href="/wp-content/themes/wordpress-fss-theme/infusion/components/uiOptions/css/fss/fss-theme-by-uio.css" />
@@ -18,7 +18,7 @@
 	<link rel="stylesheet" type="text/css" href="/wp-content/themes/wordpress-fss-theme/infusion/lib/jquery/ui/css/fl-theme-bw/bw.css" />
 	<link rel="stylesheet" type="text/css" href="/wp-content/themes/wordpress-fss-theme/infusion/lib/jquery/ui/css/fl-theme-wb/wb.css" />
 	<link rel="stylesheet" type="text/css" href="/wp-content/themes/wordpress-fss-theme/infusion/lib/jquery/ui/css/fl-theme-by/by.css" />
-	<link rel="stylesheet" type="text/css" href="/wp-content/themes/wordpress-fss-theme/infusion/lib/jquery/ui/css/fl-theme-yb/yb.css" />	
+	<link rel="stylesheet" type="text/css" href="/wp-content/themes/wordpress-fss-theme/infusion/lib/jquery/ui/css/fl-theme-yb/yb.css" />
 
 	<link rel="stylesheet" type="text/css" media="all" href="/wp-content/themes/idi-theme/style.css" />
 	<!--[if lt IE 9]>
@@ -33,13 +33,13 @@
 
 	<script type="text/javascript" src="/wp-content/themes/wordpress-fss-theme/infusion/MyInfusion.js"></script>
 
-	<!--[if lte IE 8]>	
-		<script type="text/javascript">document.createElement("header")</script>	
-		<script type="text/javascript">document.createElement("nav")</script>		
+	<!--[if lte IE 8]>
+		<script type="text/javascript">document.createElement("header")</script>
+		<script type="text/javascript">document.createElement("nav")</script>
 		<script type="text/javascript">document.createElement("footer")</script>
 		<script type="text/javascript">document.createElement("section")</script>
 		<script type="text/javascript">document.createElement("aside")</script>
-	<![endif]-->	
+	<![endif]-->
 
 <meta name='robots' content='max-image-preview:large' />
 <script type="text/javascript">
@@ -103,7 +103,7 @@ var vpPluginPHPvars = {"pluginUrl":"https:\/\/inclusivedesign.ca\/wp-content\/pl
 
 </head>
 
-<body> 
+<body>
 
 	<script type="text/javascript">
     idi.setUpLoginOutPanel = function () {
@@ -118,40 +118,40 @@ var vpPluginPHPvars = {"pluginUrl":"https:\/\/inclusivedesign.ca\/wp-content\/pl
                 onPanelShow: function () {
                     // close UIO panel if it was open
                     idi.closeOpenedPanel($(idi.selectors.UIOiFrame), $(idi.selectors.UIOToggleButton));
-                    
-                    	
+
+
                 }
             }
-        });              
+        });
 
 											//Default behaviour
 	        $(idi.selectors.loginPanel).hide();
-    	    $(idi.selectors.loginForm).show();    	    
-          
-    	
-    	
-    	//Events      	                    
+    	    $(idi.selectors.loginForm).show();
+
+
+
+    	//Events
 		$('.idi-logout').click(function() { //Logout button
-				$(idi.selectors.loginPanel).hide();                                   
-	            $(idi.selectors.loginForm).hide();           
-        });        
-        
+				$(idi.selectors.loginPanel).hide();
+	            $(idi.selectors.loginForm).hide();
+        });
+
 		$('.idi-login-link').click(function() {	//Login link within logout text
 			$(idi.selectors.logoutText).hide();
-			$(idi.selectors.loginForm).show();			
-		});           	           
-		        
+			$(idi.selectors.loginForm).show();
+		});
+
     };
-      
-</script>    
+
+</script>
     <!-- begin markup for UI Options Fat Panel -->
-    <div class="flc-uiOptions-fatPanel fl-uiOptions-fatPanel">        
-        <div id="myUIOptions" class="flc-slidingPanel-panel flc-uiOptions-iframe"></div>     
-        
+    <div class="flc-uiOptions-fatPanel fl-uiOptions-fatPanel">
+        <div id="myUIOptions" class="flc-slidingPanel-panel flc-uiOptions-iframe"></div>
+
         <div class="idi-slidingPanel-panel idi-loginOutPanel">
-                
-            <div class="idi-logout-text fl-text-align-center" style="display: none;">             
-                <p>You have been successfully logged out. <a href="#" class="idi-login-link">Login</a>.</p>                                                                     
+
+            <div class="idi-logout-text fl-text-align-center" style="display: none;">
+                <p>You have been successfully logged out. <a href="#" class="idi-login-link">Login</a>.</p>
             </div>
 
             <div class="idi-login-form fl-centered " style="display: none;">
@@ -175,13 +175,13 @@ var vpPluginPHPvars = {"pluginUrl":"https:\/\/inclusivedesign.ca\/wp-content\/pl
                     </div>
                 </form>
             </div>
-        </div> 
-            
+        </div>
+
         <div class="fl-panelBar">
-            <button class="flc-slidingPanel-toggleButton fl-toggleButton idi-uio-button">Preferences</button>           
-                                    
-                      
-                   
+            <button class="flc-slidingPanel-toggleButton fl-toggleButton idi-uio-button">Preferences</button>
+
+
+
                     </div>
     </div>
     <!-- end markup for UI Options Fat Panel -->
@@ -231,8 +231,8 @@ var vpPluginPHPvars = {"pluginUrl":"https:\/\/inclusivedesign.ca\/wp-content\/pl
 					<ul><li><a class="idi-nav-home current_page_item" href="/">home</a></li><li><a class="idi-nav-about" href="/about/">about</a></li><li><a class="idi-nav-people" href="/people/">people</a></li><li><a class="idi-nav-news" href="/news/">news</a></li><li><a class="idi-nav-research" href="/research/">research</a></li><li><a class="idi-nav-infrastructure" href="/infrastructure/">infrastructure</a></li></ul>				</div>
 				<div class="idi-nav-links-buffer"></div>
 			</nav>
-	    </header>  
-		
+	    </header>
+
 	    <section id="content" class="fl-site-main-body">
 			<!-- Container for Table of Contents inserted at request of UI Options -->
 			<div class="flc-toc-tocContainer toc"> </div>
@@ -288,15 +288,32 @@ var vpPluginPHPvars = {"pluginUrl":"https:\/\/inclusivedesign.ca\/wp-content\/pl
 					</div>
 				</div>
 			</div>
-		<div class="fl-col">	  
-			<div class="idi-box idi-highlight-box twitter-feed-group">
-				<div class="idi-box-text">
-					<a class="twitter-follow-button" rel="external nofollow" href="http://twitter.com/idrc_ocadu" title="Follow @idrc_ocadu">@idrc_ocadu</a>
-				</div>
-			</div>		
+		<div class="fl-col">
 			<div class="idi-box">
 				<div class="idi-box idi-box-text">
-					
+
+<div class="idi-social-media">
+	<h3>Social media</h3>
+	<ul class="idi-social-media-list">
+		<li><a rel="external nofollow" href="https://twitter.com/idrc_ocadu/"><svg viewBox="0 0 1536 1536" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+			<path
+				d="m1533 292.4c-42.9 62.4-96.5 117.9-157.9 162.8 1 13.6 1 27.3 1 40.9 0 416.2-316.8 895.7-895.7 895.7-178.4 0-344-51.7-483.4-141.3 25.3 2.9 49.7 3.9 76 3.9 147.2 0 282.6-49.7 390.8-134.5-138.4-2.9-254.4-93.6-294.3-218.3 19.5 2.9 39 4.9 59.5 4.9 28.3 0 56.5-3.9 82.8-10.7-144.2-29.2-252.4-155.9-252.4-309v-3.9c41.9 23.4 90.6 38 142.3 40-84.8-56.5-140.3-153-140.3-262.2 0-58.5 15.6-112.1 42.9-158.9 155 191 387.9 315.8 649.1 329.4-4.9-23.4-7.8-47.8-7.8-72.1 0-173.5 140.3-314.8 314.8-314.8 90.6 0 172.5 38 230 99.4 71.1-13.6 139.4-40 199.8-76-23.4 73.1-73.1 134.5-138.4 173.5 63.3-6.9 124.7-24.4 181.2-48.8z">
+			</path>
+		</svg> <span>Twitter</span></a></li>
+		<li><a rel="external nofollow"
+				href="https://www.linkedin.com/company/inclusive-design-research-centre/"><svg xmlns="http://www.w3.org/2000/svg"
+					viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+					<path
+						d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z">
+					</path>
+				</svg> <span>LinkedIn</span></a></li>
+		<li><a rel="external nofollow" href="https://wecount.inclusivedesign.ca/recount/"><svg xmlns="http://www.w3.org/2000/svg"
+			viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+			<path
+				d="M215.4 96L144 96l-36.2 0L96 96l0 8.8L96 144l0 40.4 0 89L.2 202.5c1.6-18.1 10.9-34.9 25.7-45.8L48 140.3 48 96c0-26.5 21.5-48 48-48l76.6 0 49.9-36.9C232.2 3.9 243.9 0 256 0s23.8 3.9 33.5 11L339.4 48 416 48c26.5 0 48 21.5 48 48l0 44.3 22.1 16.4c14.8 10.9 24.1 27.7 25.7 45.8L416 273.4l0-89 0-40.4 0-39.2 0-8.8-11.8 0L368 96l-71.4 0-81.3 0zM0 448L0 242.1 217.6 403.3c11.1 8.2 24.6 12.7 38.4 12.7s27.3-4.4 38.4-12.7L512 242.1 512 448s0 0 0 0c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64c0 0 0 0 0 0zM176 160l160 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-160 0c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 64l160 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-160 0c-8.8 0-16-7.2-16-16s7.2-16 16-16z" />
+		</svg> <span>The Recount</span></a></li>
+	</ul>
+</div>
 <div class="idi-institutions">
 	<h3>IDI Institutions</h3>
 	<p>Find out more about their ongoing research</p>
@@ -339,7 +356,7 @@ var vpPluginPHPvars = {"pluginUrl":"https:\/\/inclusivedesign.ca\/wp-content\/pl
 		</section> <!-- end "content" -->
 
 		<!-- Loads the file "footer-content.php". Feel free to override with your own footer, or with an empty file -->
-		
+
 		<footer class="fl-centered fl-site-footer fl-push">
 			<div class="idi-contact-info">
 				205 Richmond Street West, 2nd Floor, Toronto, ON M5V 1V3, Canada

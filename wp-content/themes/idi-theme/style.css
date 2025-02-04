@@ -1072,6 +1072,34 @@ a.anchor {
 .fl-theme-uio-by .idi-login-form .idi-login-extra,
 .fl-theme-uio-bw .idi-login-form .idi-login-extra { background-image: url('images/arrows/arrow-black.gif'); }
 
+/* Social Media List */
+ul.idi-social-media-list {
+    list-style: none;
+    margin-left: 0;
+    padding: .3em 1em 1.25em 0;
+}
+
+ul.idi-social-media-list li {
+    list-style: none;
+    padding-bottom: .33em;
+}
+
+ul.idi-social-media-list li a {
+    text-decoration: none;
+}
+
+ul.idi-social-media-list li a span {
+    text-decoration: underline;
+}
+
+ul.idi-social-media-list li svg {
+    display: inline;
+    fill: currentColor;
+    inline-size: 1em;
+    padding-right: 0.33em;
+    vertical-align: top;
+}
+
 /* Institution List */
 .idi-institutions p {
     font-style: italic;
